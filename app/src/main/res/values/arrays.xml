@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>R.drawable.pic_1</item>
+        <item>R.drawable.pic_2</item>
+        <item>R.drawable.pic_3</item>
+        <item>R.drawable.pic_4</item>
+        <item>R.drawable.pic_5</item>
+        <item>R.drawable.pic_6</item>
+    </array>
+    <array name="title">
+        <item>法国的“White Tree”的高层建筑</item>
+        <item>两个世界，一个家园</item>
+        <item>王宝强前妻：不要嫁给配不上自己的人</item>
+        <item>全新保时捷 718Cayman -- 以运动之名</item>
+        <item>英国的一个有"童话世界"之称的小镇--"Lavenham"</item>
+        <item>《海贼王剧场版13：GOLD》16天票房累计31亿日元</item>
+    </array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.design.mynote"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lay_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:indicator_drawable_selected="@drawable/selected_radius" />
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/bottom_sheet_demo_coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            xmlns:app="http://schemas.android.com/apk/lib/com.design.mynote">
+
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/bottom_sheet_demo_swipe_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/bottom_sheet_demo_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

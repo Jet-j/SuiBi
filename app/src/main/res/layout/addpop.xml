@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/popadd_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#4f7ff9"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/pop_add_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入随笔主题"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View style="@style/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pop_ed_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="150"
+                android:layout_below="@id/pop_add_top"
+                android:background="@drawable/pop_et_bg"
+                android:hint="主题"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pop_bt_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pop_okbt_sty"
+                    android:text="确定"
+                    android:textColor="#898989" />
+
+                <Button
+                    android:id="@+id/pop_bt_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pop_celbt_sty"
+                    android:text="取消"
+                    android:textColor="#898989" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

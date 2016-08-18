@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">随笔</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">手机号/用户名</string>
+    <string name="Password">密码</string>
+    <string name="forgot_your_password"><u>忘记密码</u></string>
+    <string name="go">GO</string>
+    <string name="repeat_password">再次输入密码</string>
+    <string name="next">下一步</string>
+    <string name="register"><u>注 册</u></string>
+
+</resources>
